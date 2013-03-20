@@ -1,0 +1,71 @@
+<Lab4Start 
+
+|My String|
+|string|new?|
+|string|string|
+|1234|1234|
+
+
+
+|My String|
+|string|z|concatenate?|
+|string|test|stringtest| 
+|string||string| 
+||test|test|
+
+|My String|
+|string|x|concatenate_ascii?|
+|string|33|string!|
+|string|97|stringa|
+|string|57|string9|
+
+
+
+|My String|
+|string|capitalize?|
+|string|String|
+|String|String|
+|STRING|String|
+|1string|1string|
+
+|My String|
+|string|to_lower?|
+|string|string|
+|String|string|
+|STRING|string|
+
+|My String|
+|string|x|y|slice?|
+|string|1|3|tri|
+|String|2|5|ring|
+|STRING|6|1||
+|string|5|9|g|
+
+|My String|
+|string|count?|
+|string|6|
+|23|2|
+||0|
+|str123789|9|
+|-1|2|
+
+|My String|
+|string|reverse?|
+|hello|olleh|
+|you|uoy|
+|first,second|dnoces,tsrif|
+|1234|4321|
+
+|My String|
+|string|z|include?|
+|hello|lo|true|
+|hello|asdf|false|
+|hello|elo|false|
+|hello11|11|true|
+|hello22|11|false|
+
+|My String|
+|string|z|prepend?|
+|World!|Hello|!-HelloWorld!-!|
+|Hello|World!|!-World!Hello-!|
+|World!||World!|

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>SubSuite1</rootPath>
+    <pageHistoryReference>
+    <name>DemoPage.MainSuite.SubSuite1.SubTest1</name>
+    <date>03/14/2013 19:26:06</date>
+    <pageHistoryLink>DemoPage.MainSuite.SubSuite1.SubTest1?pageHistory&amp;resultDate=20130314192606</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>207</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1896</totalRunTimeInMillis>
+
+</suiteResults>
+

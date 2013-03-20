@@ -1,0 +1,1640 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>MethodTables</rootPath>
+    <result>
+    <counts>
+      <right>15</right>
+      <wrong>4</wrong>
+      <ignores>0</ignores>
+      <exceptions>6</exceptions>
+    </counts>
+    <runTimeInMillis>1474</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<br/><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Included page: <a href="Lab4Start.SetUp">.Lab4Start.SetUp</a> <a href="Lab4Start.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=" class="edit">(edit)</a></p>
+	<div><div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><table _TABLENUMBER=4919531831938487160>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>fixtures</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/><a href="Lab4Start">&lt;Lab4Start</a><br/><table _TABLENUMBER=7943887783075736513>
+	<tr>
+		<td colspan="2"><span class="pass">My String</span></td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>capitalize?</td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td><span class="pass">String</span></td>
+	</tr>
+	<tr>
+		<td>String</td>
+		<td><span class="pass">String</span></td>
+	</tr>
+	<tr>
+		<td>STRING</td>
+		<td><span class="pass">String</span></td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=7703976556796408673>
+	<tr>
+		<td colspan="2"><span class="pass">My String</span></td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>include?</td>
+	</tr>
+	<tr>
+		<td>hello</td>
+		<td>lo <span class="error">Method include[0] not found in Fixtures::MyString.</span></td>
+	</tr>
+	<tr>
+		<td>hello</td>
+		<td>asdf <span class="error">Method include[0] not found in Fixtures::MyString.</span></td>
+	</tr>
+	<tr>
+		<td>hello</td>
+		<td>elo <span class="error">Method include[0] not found in Fixtures::MyString.</span></td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=4105989580591705887>
+	<tr>
+		<td colspan="2"><span class="pass">My String</span></td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>slice?</td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td><span class="pass">tri</span></td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>[tri] <span class="fail">expected [ring]</span></td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>[tri] <span class="fail">expected [error]</span></td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=5840288538180426349>
+	<tr>
+		<td colspan="2"><span class="pass">My String</span></td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>downcase?</td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td><span class="pass">string</span></td>
+	</tr>
+	<tr>
+		<td>String</td>
+		<td><span class="pass">string</span></td>
+	</tr>
+	<tr>
+		<td>STRING</td>
+		<td><span class="pass">string</span></td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=7031976525478906758>
+	<tr>
+		<td colspan="2"><span class="pass">My String</span></td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>length?</td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td><span class="pass">6</span></td>
+	</tr>
+	<tr>
+		<td>23</td>
+		<td><span class="pass">2</span></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><span class="pass">0</span></td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=239388349212240605>
+	<tr>
+		<td colspan="3"><span class="pass">My String</span></td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>cell</td>
+		<td>prepend?</td>
+	</tr>
+	<tr>
+		<td>World!</td>
+		<td></td>
+		<td><span class="pass">World!</span></td>
+	</tr>
+	<tr>
+		<td>World!</td>
+		<td>Hello</td>
+		<td>[HelloWorld!] <span class="fail">expected [HelloWorld<a title="create page" href="Lab4Start.HelloWorld?edit&nonExistent=true">[?]</a>!]</span></td>
+	</tr>
+	<tr>
+		<td>World!</td>
+		<td>Hello </td>
+		<td><span class="pass">Hello World!</span></td>
+	</tr>
+</table>
+<br/><table _TABLENUMBER=8823056959693766547>
+	<tr>
+		<td colspan="3"><span class="pass">My String</span></td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>cell</td>
+		<td>concatenate?</td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>test</td>
+		<td><span class="pass">stringtest</span></td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td></td>
+		<td><span class="pass">string</span></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>test</td>
+		<td><span class="pass">test</span></td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>33</td>
+		<td>[string33] <span class="fail">expected [string!]</span></td>
+	</tr>
+</table>
+<br/><br/><br/><br/><br/>]]></content>
+    <relativePageName>MethodTables</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_1</name>
+                <row>
+                    <col><![CDATA[pass(My String)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[capitalize?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[pass(String)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[String]]></col>
+                    <col><![CDATA[pass(String)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[STRING]]></col>
+                    <col><![CDATA[pass(String)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_2</name>
+                <row>
+                    <col><![CDATA[pass(My String)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[include?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[hello]]></col>
+                    <col><![CDATA[lo error(Method include[0] not found in Fixtures::MyString.)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[hello]]></col>
+                    <col><![CDATA[asdf error(Method include[0] not found in Fixtures::MyString.)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[hello]]></col>
+                    <col><![CDATA[elo error(Method include[0] not found in Fixtures::MyString.)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_3</name>
+                <row>
+                    <col><![CDATA[pass(My String)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[slice?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[pass(tri)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[[tri] fail(expected [ring])]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[[tri] fail(expected [error])]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_4</name>
+                <row>
+                    <col><![CDATA[pass(My String)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[downcase?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[pass(string)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[String]]></col>
+                    <col><![CDATA[pass(string)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[STRING]]></col>
+                    <col><![CDATA[pass(string)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_5</name>
+                <row>
+                    <col><![CDATA[pass(My String)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[length?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[pass(6)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[23]]></col>
+                    <col><![CDATA[pass(2)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[]]></col>
+                    <col><![CDATA[pass(0)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_6</name>
+                <row>
+                    <col><![CDATA[pass(My String)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[cell]]></col>
+                    <col><![CDATA[prepend?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[World!]]></col>
+                    <col><![CDATA[]]></col>
+                    <col><![CDATA[pass(World!)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[World!]]></col>
+                    <col><![CDATA[Hello]]></col>
+                    <col><![CDATA[[HelloWorld!] fail(expected [HelloWorld<a title="create page" href="Lab4Start.HelloWorld?edit&nonExistent=true">[?]</a>!])]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[World!]]></col>
+                    <col><![CDATA[Hello ]]></col>
+                    <col><![CDATA[pass(Hello World!)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_7</name>
+                <row>
+                    <col><![CDATA[pass(My String)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[cell]]></col>
+                    <col><![CDATA[concatenate?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[test]]></col>
+                    <col><![CDATA[pass(stringtest)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[]]></col>
+                    <col><![CDATA[pass(string)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[]]></col>
+                    <col><![CDATA[test]]></col>
+                    <col><![CDATA[pass(test)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[string]]></col>
+                    <col><![CDATA[33]]></col>
+                    <col><![CDATA[[string33] fail(expected [string!])]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_0, make, decisionTable_1, MyString]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[My String]]></expected>
+                              <evaluationMessage><![CDATA[pass(My String)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_1, call, decisionTable_1, table, [[string, capitalize?], [string, String], [String, String], [STRING, String]]]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS table[1] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_2, call, decisionTable_1, beginTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS begin_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_3, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_4, call, decisionTable_1, setString, string]]]></instruction>
+        <slimResult><![CDATA[string]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[string]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[string]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_5, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_6, call, decisionTable_1, capitalize]]]></instruction>
+        <slimResult><![CDATA[String]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_1_6</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[String]]></actual>
+                              <expected><![CDATA[String]]></expected>
+                              <evaluationMessage><![CDATA[pass(String)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_7, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_8, call, decisionTable_1, setString, String]]]></instruction>
+        <slimResult><![CDATA[String]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_8</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[String]]></actual>
+                              <expected><![CDATA[String]]></expected>
+                              <evaluationMessage><![CDATA[String]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_9, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_10, call, decisionTable_1, capitalize]]]></instruction>
+        <slimResult><![CDATA[String]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_1_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[String]]></actual>
+                              <expected><![CDATA[String]]></expected>
+                              <evaluationMessage><![CDATA[pass(String)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_11, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_12, call, decisionTable_1, setString, STRING]]]></instruction>
+        <slimResult><![CDATA[STRING]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_12</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[STRING]]></actual>
+                              <expected><![CDATA[STRING]]></expected>
+                              <evaluationMessage><![CDATA[STRING]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_13, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_14, call, decisionTable_1, capitalize]]]></instruction>
+        <slimResult><![CDATA[String]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_1_14</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[String]]></actual>
+                              <expected><![CDATA[String]]></expected>
+                              <evaluationMessage><![CDATA[pass(String)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_15, call, decisionTable_1, endTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS end_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_0, make, decisionTable_2, MyString]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_2_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[My String]]></expected>
+                              <evaluationMessage><![CDATA[pass(My String)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_1, call, decisionTable_2, table, [[string, include?], [hello, lo], [hello, asdf], [hello, elo]]]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS table[1] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_2, call, decisionTable_2, beginTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS begin_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_3, call, decisionTable_2, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_4, call, decisionTable_2, setString, hello]]]></instruction>
+        <slimResult><![CDATA[hello]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[hello]]></actual>
+                              <expected><![CDATA[hello]]></expected>
+                              <evaluationMessage><![CDATA[hello]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_5, call, decisionTable_2, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_6, call, decisionTable_2, include]]]></instruction>
+        <slimResult><![CDATA[!error:Method include[0] not found in Fixtures::MyString.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_6</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:Method include[0] not found in Fixtures::MyString.]]></actual>
+                              <expected><![CDATA[lo]]></expected>
+                              <evaluationMessage><![CDATA[lo error(Method include[0] not found in Fixtures::MyString.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_7, call, decisionTable_2, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_8, call, decisionTable_2, setString, hello]]]></instruction>
+        <slimResult><![CDATA[hello]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_8</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[hello]]></actual>
+                              <expected><![CDATA[hello]]></expected>
+                              <evaluationMessage><![CDATA[hello]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_9, call, decisionTable_2, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_10, call, decisionTable_2, include]]]></instruction>
+        <slimResult><![CDATA[!error:Method include[0] not found in Fixtures::MyString.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:Method include[0] not found in Fixtures::MyString.]]></actual>
+                              <expected><![CDATA[asdf]]></expected>
+                              <evaluationMessage><![CDATA[asdf error(Method include[0] not found in Fixtures::MyString.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_11, call, decisionTable_2, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_12, call, decisionTable_2, setString, hello]]]></instruction>
+        <slimResult><![CDATA[hello]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_12</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[hello]]></actual>
+                              <expected><![CDATA[hello]]></expected>
+                              <evaluationMessage><![CDATA[hello]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_13, call, decisionTable_2, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_14, call, decisionTable_2, include]]]></instruction>
+        <slimResult><![CDATA[!error:Method include[0] not found in Fixtures::MyString.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_14</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:Method include[0] not found in Fixtures::MyString.]]></actual>
+                              <expected><![CDATA[elo]]></expected>
+                              <evaluationMessage><![CDATA[elo error(Method include[0] not found in Fixtures::MyString.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_15, call, decisionTable_2, endTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS end_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_0, make, decisionTable_3, MyString]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_3_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[My String]]></expected>
+                              <evaluationMessage><![CDATA[pass(My String)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_1, call, decisionTable_3, table, [[string, slice?], [string, tri], [string, ring], [string, error]]]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS table[1] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_2, call, decisionTable_3, beginTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS begin_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_3, call, decisionTable_3, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_4, call, decisionTable_3, setString, string]]]></instruction>
+        <slimResult><![CDATA[string]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_3_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[string]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[string]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_5, call, decisionTable_3, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_6, call, decisionTable_3, slice]]]></instruction>
+        <slimResult><![CDATA[tri]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_3_6</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[tri]]></actual>
+                              <expected><![CDATA[tri]]></expected>
+                              <evaluationMessage><![CDATA[pass(tri)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_7, call, decisionTable_3, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_8, call, decisionTable_3, setString, string]]]></instruction>
+        <slimResult><![CDATA[string]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_3_8</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[string]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[string]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_9, call, decisionTable_3, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_10, call, decisionTable_3, slice]]]></instruction>
+        <slimResult><![CDATA[tri]]></slimResult>
+                <expectation>
+          <status>wrong</status>
+          <instructionId>decisionTable_3_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[tri]]></actual>
+                              <expected><![CDATA[ring]]></expected>
+                              <evaluationMessage><![CDATA[[tri] fail(expected [ring])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_11, call, decisionTable_3, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_12, call, decisionTable_3, setString, string]]]></instruction>
+        <slimResult><![CDATA[string]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_3_12</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[string]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[string]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_13, call, decisionTable_3, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_14, call, decisionTable_3, slice]]]></instruction>
+        <slimResult><![CDATA[tri]]></slimResult>
+                <expectation>
+          <status>wrong</status>
+          <instructionId>decisionTable_3_14</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[tri]]></actual>
+                              <expected><![CDATA[error]]></expected>
+                              <evaluationMessage><![CDATA[[tri] fail(expected [error])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_3_15, call, decisionTable_3, endTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS end_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_0, make, decisionTable_4, MyString]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_4_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[My String]]></expected>
+                              <evaluationMessage><![CDATA[pass(My String)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_1, call, decisionTable_4, table, [[string, downcase?], [string, string], [String, string], [STRING, string]]]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS table[1] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_2, call, decisionTable_4, beginTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS begin_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_3, call, decisionTable_4, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_4, call, decisionTable_4, setString, string]]]></instruction>
+        <slimResult><![CDATA[string]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_4_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[string]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[string]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_5, call, decisionTable_4, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_6, call, decisionTable_4, downcase]]]></instruction>
+        <slimResult><![CDATA[string]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_4_6</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[string]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[pass(string)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_7, call, decisionTable_4, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_8, call, decisionTable_4, setString, String]]]></instruction>
+        <slimResult><![CDATA[String]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_4_8</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[String]]></actual>
+                              <expected><![CDATA[String]]></expected>
+                              <evaluationMessage><![CDATA[String]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_9, call, decisionTable_4, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_10, call, decisionTable_4, downcase]]]></instruction>
+        <slimResult><![CDATA[string]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_4_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[string]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[pass(string)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_11, call, decisionTable_4, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_12, call, decisionTable_4, setString, STRING]]]></instruction>
+        <slimResult><![CDATA[STRING]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_4_12</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[STRING]]></actual>
+                              <expected><![CDATA[STRING]]></expected>
+                              <evaluationMessage><![CDATA[STRING]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_13, call, decisionTable_4, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_14, call, decisionTable_4, downcase]]]></instruction>
+        <slimResult><![CDATA[string]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_4_14</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[string]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[pass(string)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_15, call, decisionTable_4, endTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS end_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_0, make, decisionTable_5, MyString]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_5_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[My String]]></expected>
+                              <evaluationMessage><![CDATA[pass(My String)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_1, call, decisionTable_5, table, [[string, length?], [string, 6], [23, 2], [, 0]]]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS table[1] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_2, call, decisionTable_5, beginTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS begin_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_3, call, decisionTable_5, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_4, call, decisionTable_5, setString, string]]]></instruction>
+        <slimResult><![CDATA[string]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_5_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[string]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[string]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_5, call, decisionTable_5, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_6, call, decisionTable_5, length]]]></instruction>
+        <slimResult><![CDATA[6]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_5_6</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[6]]></actual>
+                              <expected><![CDATA[6]]></expected>
+                              <evaluationMessage><![CDATA[pass(6)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_7, call, decisionTable_5, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_8, call, decisionTable_5, setString, 23]]]></instruction>
+        <slimResult><![CDATA[23]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_5_8</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[23]]></actual>
+                              <expected><![CDATA[23]]></expected>
+                              <evaluationMessage><![CDATA[23]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_9, call, decisionTable_5, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_10, call, decisionTable_5, length]]]></instruction>
+        <slimResult><![CDATA[2]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_5_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[2]]></actual>
+                              <expected><![CDATA[2]]></expected>
+                              <evaluationMessage><![CDATA[pass(2)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_11, call, decisionTable_5, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_12, call, decisionTable_5, setString, ]]]></instruction>
+        <slimResult><![CDATA[]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_5_12</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[]]></actual>
+                              <expected><![CDATA[]]></expected>
+                              <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_13, call, decisionTable_5, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_14, call, decisionTable_5, length]]]></instruction>
+        <slimResult><![CDATA[0]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_5_14</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[0]]></actual>
+                              <expected><![CDATA[0]]></expected>
+                              <evaluationMessage><![CDATA[pass(0)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_5_15, call, decisionTable_5, endTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS end_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_0, make, decisionTable_6, MyString]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_6_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[My String]]></expected>
+                              <evaluationMessage><![CDATA[pass(My String)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_1, call, decisionTable_6, table, [[string, cell, prepend?], [World!, , World!], [World!, Hello, HelloWorld<a title="create page" href="Lab4Start.HelloWorld?edit&nonExistent=true">[?]</a>!], [World!, Hello , Hello World!]]]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS table[1] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_2, call, decisionTable_6, beginTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS begin_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_3, call, decisionTable_6, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_4, call, decisionTable_6, setString, World!]]]></instruction>
+        <slimResult><![CDATA[World!]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_6_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[World!]]></actual>
+                              <expected><![CDATA[World!]]></expected>
+                              <evaluationMessage><![CDATA[World!]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_5, call, decisionTable_6, setCell, ]]]></instruction>
+        <slimResult><![CDATA[]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_6_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[]]></actual>
+                              <expected><![CDATA[]]></expected>
+                              <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_6, call, decisionTable_6, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_7, call, decisionTable_6, prepend]]]></instruction>
+        <slimResult><![CDATA[World!]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_6_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[World!]]></actual>
+                              <expected><![CDATA[World!]]></expected>
+                              <evaluationMessage><![CDATA[pass(World!)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_8, call, decisionTable_6, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_9, call, decisionTable_6, setString, World!]]]></instruction>
+        <slimResult><![CDATA[HelloWorld!]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_6_9</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[HelloWorld!]]></actual>
+                              <expected><![CDATA[World!]]></expected>
+                              <evaluationMessage><![CDATA[World!]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_10, call, decisionTable_6, setCell, Hello]]]></instruction>
+        <slimResult><![CDATA[Hello]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_6_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Hello]]></actual>
+                              <expected><![CDATA[Hello]]></expected>
+                              <evaluationMessage><![CDATA[Hello]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_11, call, decisionTable_6, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_12, call, decisionTable_6, prepend]]]></instruction>
+        <slimResult><![CDATA[HelloWorld!]]></slimResult>
+                <expectation>
+          <status>wrong</status>
+          <instructionId>decisionTable_6_12</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[HelloWorld!]]></actual>
+                              <expected><![CDATA[HelloWorld<a title="create page" href="Lab4Start.HelloWorld?edit&nonExistent=true">[?]</a>!]]></expected>
+                              <evaluationMessage><![CDATA[[HelloWorld!] fail(expected [HelloWorld<a title="create page" href="Lab4Start.HelloWorld?edit&nonExistent=true">[?]</a>!])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_13, call, decisionTable_6, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_14, call, decisionTable_6, setString, World!]]]></instruction>
+        <slimResult><![CDATA[Hello World!]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_6_14</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Hello World!]]></actual>
+                              <expected><![CDATA[World!]]></expected>
+                              <evaluationMessage><![CDATA[World!]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_15, call, decisionTable_6, setCell, Hello ]]]></instruction>
+        <slimResult><![CDATA[Hello ]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_6_15</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Hello ]]></actual>
+                              <expected><![CDATA[Hello ]]></expected>
+                              <evaluationMessage><![CDATA[Hello ]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_16, call, decisionTable_6, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_17, call, decisionTable_6, prepend]]]></instruction>
+        <slimResult><![CDATA[Hello World!]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_6_17</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[Hello World!]]></actual>
+                              <expected><![CDATA[Hello World!]]></expected>
+                              <evaluationMessage><![CDATA[pass(Hello World!)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_6_18, call, decisionTable_6, endTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS end_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_0, make, decisionTable_7, MyString]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_7_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[My String]]></expected>
+                              <evaluationMessage><![CDATA[pass(My String)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_1, call, decisionTable_7, table, [[string, cell, concatenate?], [string, test, stringtest], [string, , string], [, test, test], [string, 33, string!]]]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS table[1] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_2, call, decisionTable_7, beginTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS begin_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_3, call, decisionTable_7, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_4, call, decisionTable_7, setString, string]]]></instruction>
+        <slimResult><![CDATA[stringtest]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_7_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[stringtest]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[string]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_5, call, decisionTable_7, setCell, test]]]></instruction>
+        <slimResult><![CDATA[test]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_7_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[test]]></actual>
+                              <expected><![CDATA[test]]></expected>
+                              <evaluationMessage><![CDATA[test]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_6, call, decisionTable_7, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_7, call, decisionTable_7, concatenate]]]></instruction>
+        <slimResult><![CDATA[stringtest]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_7_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[stringtest]]></actual>
+                              <expected><![CDATA[stringtest]]></expected>
+                              <evaluationMessage><![CDATA[pass(stringtest)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_8, call, decisionTable_7, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_9, call, decisionTable_7, setString, string]]]></instruction>
+        <slimResult><![CDATA[string]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_7_9</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[string]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[string]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_10, call, decisionTable_7, setCell, ]]]></instruction>
+        <slimResult><![CDATA[]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_7_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[]]></actual>
+                              <expected><![CDATA[]]></expected>
+                              <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_11, call, decisionTable_7, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_12, call, decisionTable_7, concatenate]]]></instruction>
+        <slimResult><![CDATA[string]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_7_12</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[string]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[pass(string)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_13, call, decisionTable_7, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_14, call, decisionTable_7, setString, ]]]></instruction>
+        <slimResult><![CDATA[test]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_7_14</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[test]]></actual>
+                              <expected><![CDATA[]]></expected>
+                              <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_15, call, decisionTable_7, setCell, test]]]></instruction>
+        <slimResult><![CDATA[test]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_7_15</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[test]]></actual>
+                              <expected><![CDATA[test]]></expected>
+                              <evaluationMessage><![CDATA[test]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_16, call, decisionTable_7, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_17, call, decisionTable_7, concatenate]]]></instruction>
+        <slimResult><![CDATA[test]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_7_17</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[test]]></actual>
+                              <expected><![CDATA[test]]></expected>
+                              <evaluationMessage><![CDATA[pass(test)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_18, call, decisionTable_7, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_19, call, decisionTable_7, setString, string]]]></instruction>
+        <slimResult><![CDATA[string33]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_7_19</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[string33]]></actual>
+                              <expected><![CDATA[string]]></expected>
+                              <evaluationMessage><![CDATA[string]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_20, call, decisionTable_7, setCell, 33]]]></instruction>
+        <slimResult><![CDATA[33]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_7_20</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[33]]></actual>
+                              <expected><![CDATA[33]]></expected>
+                              <evaluationMessage><![CDATA[33]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_21, call, decisionTable_7, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_22, call, decisionTable_7, concatenate]]]></instruction>
+        <slimResult><![CDATA[string33]]></slimResult>
+                <expectation>
+          <status>wrong</status>
+          <instructionId>decisionTable_7_22</instructionId>
+          <col>2</col>
+          <row>5</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[string33]]></actual>
+                              <expected><![CDATA[string!]]></expected>
+                              <evaluationMessage><![CDATA[[string33] fail(expected [string!])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_7_23, call, decisionTable_7, endTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS end_table[0] Fixtures::MyString.>>]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

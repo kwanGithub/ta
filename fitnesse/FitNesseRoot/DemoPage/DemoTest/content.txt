@@ -1,0 +1,17 @@
+!contents -R2 -g -p -f -h
+
+!2 Min första testtabell:
+
+|My test|
+|first name|last name|fullname?|
+|Another|Name|Another Name|
+|First|last|First last|
+|Good|People|Good People|
+
+!2 En kopia på testtabellen (Vi kan ha flera tabeller/sida):
+
+|My test|
+|first name|last name|fullname?|
+|Another|Name|Another Name|
+|First|last|First last|
+|Good|People|Good People|

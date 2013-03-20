@@ -1,0 +1,9 @@
+.rakeTasks
+*.iml
+*.ipr
+*.iws
+.DS_Store
+.idea
+.rvmrc
+Gemfile
+Gemfile.lock

@@ -1,0 +1,9 @@
+!contents -R2 -g -p -f -h
+
+!define TEST_SYSTEM {slim}
+!define TEST_RUNNER {/home/kwan/git/projects/ta/rubyslim/bin/rubyslim}
+!define COMMAND_PATTERN {ruby -I %p %m}
+!define PATH_SEPARATOR { -I }
+!path /home/kwan/git/projects/ta/rubyslim/lib
+!path /home/kwan/git/projects/ta/demo/lib
+!path /home/kwan/git/projects/ta/demo/lib/fixtures

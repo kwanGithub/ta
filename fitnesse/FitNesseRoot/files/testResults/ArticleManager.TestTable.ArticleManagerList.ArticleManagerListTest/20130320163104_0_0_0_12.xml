@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>ArticleManagerListTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>12</exceptions>
+    </counts>
+    <runTimeInMillis>43</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<br/><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Included page: <a href="ArticleManager.SetUp">.ArticleManager.SetUp</a> <a href="ArticleManager.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=" class="edit">(edit)</a></p>
+	<div><div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><table _TABLENUMBER=1415126074141592522>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>fixtures</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/><div id="test_exceptions1"><H3> <span class="fail">Exceptions</span></H3><br/><a name="decisionTable_1_0"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">decisionTable_1_0</p>
+	<div><pre>__EXCEPTION__:uninitialized constant Fixtures::ArticleManagerTest::Project
+/home/kwan/git/projects/ta/BDDArticleManager-master/lib/fixtures/article_manager_test.rb:6:in `initialize'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/statement_executor.rb:66:in `new'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/statement_executor.rb:66:in `construct'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/statement_executor.rb:42:in `construct_instance'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/statement_executor.rb:24:in `create'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/statement.rb:21:in `exec'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/statement.rb:7:in `execute'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/list_executor.rb:11:in `block in execute'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/list_executor.rb:11:in `collect'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/list_executor.rb:11:in `execute'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/ruby_slim.rb:51:in `serve_ruby_slim'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/ruby_slim.rb:13:in `block in run'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/socket_service.rb:37:in `call'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/socket_service.rb:37:in `serverTask'
+/home/kwan/git/projects/ta/rubyslim/lib/rubyslim/socket_service.rb:31:in `block in serviceTask'</pre></div>
+</div>
+</div><hr/><table _TABLENUMBER=2920565090863574551>
+	<tr>
+		<td>!style_error(Unknown construction message:) Exception: <a href=#decisionTable_1_0>decisionTable_1_0</a></td>
+	</tr>
+	<tr>
+		<td>list_all_articles_empty?</td>
+	</tr>
+	<tr>
+		<td> <span class="error">The instance decisionTable_1 does not exist</span></td>
+	</tr>
+	<tr>
+		<td> <span class="error">The instance decisionTable_1 does not exist</span></td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>ArticleManagerListTest</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_1</name>
+                <row>
+                    <col><![CDATA[!style_error(Unknown construction message:) Exception: <a href=#decisionTable_1_0>decisionTable_1_0</a>]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[list_all_articles_empty?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ error(The instance decisionTable_1 does not exist)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ error(The instance decisionTable_1 does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_0, make, decisionTable_1, ArticleManagerTest]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#decisionTable_1_0>decisionTable_1_0</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#decisionTable_1_0>decisionTable_1_0</a>]]></actual>
+                              <expected><![CDATA[Article Manager Test]]></expected>
+                              <evaluationMessage><![CDATA[!style_error(Unknown construction message:) Exception: <a href=#decisionTable_1_0>decisionTable_1_0</a>]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_1, call, decisionTable_1, table, [[list_all_articles_empty?], [], []]]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_2, call, decisionTable_1, beginTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_3, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_4, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_5, call, decisionTable_1, list_all_articles_empty]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[]]></expected>
+                              <evaluationMessage><![CDATA[ error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_6, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_7, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_8, call, decisionTable_1, list_all_articles_empty]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_8</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[]]></expected>
+                              <evaluationMessage><![CDATA[ error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_9, call, decisionTable_1, endTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

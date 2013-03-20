@@ -1,0 +1,7 @@
+!3 !-slim-!
+|'''Date: '''| 6:06:55 PM (CET) on Tuesday, March 12, 2013 |
+|'''Test Page: '''|.FitNesse.UserGuide.TwoMinuteExample|
+|'''Command: '''| !-java -cp fitnesse.jar:fitnesse-standalone.jar fitnesse.slim.SlimService  8086-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 3.011 seconds |
+

@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>DemoTest</rootPath>
+    <result>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>150</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<br/><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Included page: <a href="DemoPage.SetUp">.DemoPage.SetUp</a> <a href="DemoPage.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=" class="edit">(edit)</a></p>
+	<div><div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><table _TABLENUMBER=8785162411865604499>
+	<tr>
+		<td>Import</td>
+	</tr>
+	<tr>
+		<td>Fixtures</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/><div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><h2>Min första testtabell:</h2>
+<br/><table _TABLENUMBER=3987911252773394776>
+	<tr>
+		<td colspan="3"><span class="pass">My test</span></td>
+	</tr>
+	<tr>
+		<td>first name</td>
+		<td>last name</td>
+		<td>fullname?</td>
+	</tr>
+	<tr>
+		<td>Another</td>
+		<td>Name</td>
+		<td><span class="pass">Another Name</span></td>
+	</tr>
+	<tr>
+		<td>First</td>
+		<td>last</td>
+		<td><span class="pass">First last</span></td>
+	</tr>
+	<tr>
+		<td>Good</td>
+		<td>People</td>
+		<td><span class="pass">Good People</span></td>
+	</tr>
+</table>
+<br/><h2>En kopia på testtabellen (Vi kan ha flera tabeller/sida):</h2>
+<br/>]]></content>
+    <relativePageName>DemoTest</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[Import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_1</name>
+                <row>
+                    <col><![CDATA[pass(My test)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[first name]]></col>
+                    <col><![CDATA[last name]]></col>
+                    <col><![CDATA[fullname?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Another]]></col>
+                    <col><![CDATA[Name]]></col>
+                    <col><![CDATA[pass(Another Name)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[First]]></col>
+                    <col><![CDATA[last]]></col>
+                    <col><![CDATA[pass(First last)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Good]]></col>
+                    <col><![CDATA[People]]></col>
+                    <col><![CDATA[pass(Good People)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, Fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_0, make, decisionTable_1, MyTest]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[My test]]></expected>
+                              <evaluationMessage><![CDATA[pass(My test)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_1, call, decisionTable_1, table, [[first name, last name, fullname?], [Another, Name, Another Name], [First, last, First last], [Good, People, Good People]]]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS table[1] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_2, call, decisionTable_1, beginTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS begin_table[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_3, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_4, call, decisionTable_1, setFirstName, Another]]]></instruction>
+        <slimResult><![CDATA[Another]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Another]]></actual>
+                              <expected><![CDATA[Another]]></expected>
+                              <evaluationMessage><![CDATA[Another]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_5, call, decisionTable_1, setLastName, Name]]]></instruction>
+        <slimResult><![CDATA[Name]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Name]]></actual>
+                              <expected><![CDATA[Name]]></expected>
+                              <evaluationMessage><![CDATA[Name]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_6, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_7, call, decisionTable_1, fullname]]]></instruction>
+        <slimResult><![CDATA[Another Name]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_1_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[Another Name]]></actual>
+                              <expected><![CDATA[Another Name]]></expected>
+                              <evaluationMessage><![CDATA[pass(Another Name)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_8, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_9, call, decisionTable_1, setFirstName, First]]]></instruction>
+        <slimResult><![CDATA[First]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_9</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[First]]></actual>
+                              <expected><![CDATA[First]]></expected>
+                              <evaluationMessage><![CDATA[First]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_10, call, decisionTable_1, setLastName, last]]]></instruction>
+        <slimResult><![CDATA[last]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[last]]></actual>
+                              <expected><![CDATA[last]]></expected>
+                              <evaluationMessage><![CDATA[last]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_11, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_12, call, decisionTable_1, fullname]]]></instruction>
+        <slimResult><![CDATA[First last]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_1_12</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[First last]]></actual>
+                              <expected><![CDATA[First last]]></expected>
+                              <evaluationMessage><![CDATA[pass(First last)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_13, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_14, call, decisionTable_1, setFirstName, Good]]]></instruction>
+        <slimResult><![CDATA[Good]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_14</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Good]]></actual>
+                              <expected><![CDATA[Good]]></expected>
+                              <evaluationMessage><![CDATA[Good]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_15, call, decisionTable_1, setLastName, People]]]></instruction>
+        <slimResult><![CDATA[People]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_15</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[People]]></actual>
+                              <expected><![CDATA[People]]></expected>
+                              <evaluationMessage><![CDATA[People]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_16, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_17, call, decisionTable_1, fullname]]]></instruction>
+        <slimResult><![CDATA[Good People]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_1_17</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[Good People]]></actual>
+                              <expected><![CDATA[Good People]]></expected>
+                              <evaluationMessage><![CDATA[pass(Good People)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_18, call, decisionTable_1, endTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS end_table[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

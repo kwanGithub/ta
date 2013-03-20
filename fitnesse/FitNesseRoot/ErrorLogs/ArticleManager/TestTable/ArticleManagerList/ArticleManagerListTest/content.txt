@@ -1,0 +1,7 @@
+!3 !-slim-!
+|'''Date: '''| 4:35:41 em (CET) on onsdag, mars 20, 2013 |
+|'''Test Page: '''|.ArticleManager.TestTable.ArticleManagerList.ArticleManagerListTest|
+|'''Command: '''| !-ruby -I /home/kwan/git/projects/ta/rubyslim/lib -I /home/kwan/git/projects/ta/BDDArticleManager-master/lib -I /home/kwan/git/projects/ta/BDDArticleManager-master/lib/fixtures /home/kwan/git/projects/ta/rubyslim/bin/rubyslim  8088-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.277 seconds |
+

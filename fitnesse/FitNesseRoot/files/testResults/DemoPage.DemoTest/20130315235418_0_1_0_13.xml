@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>DemoTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>13</exceptions>
+    </counts>
+    <runTimeInMillis>12</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<br/><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Included page: <a href="DemoPage.SetUp">.DemoPage.SetUp</a> <a href="DemoPage.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=" class="edit">(edit)</a></p>
+	<div><div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><table _TABLENUMBER=8484538621131373193>
+	<tr>
+		<td>Import</td>
+	</tr>
+	<tr>
+		<td>Fixture</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/><div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><h2>MIn först testtabell</h2>
+<br/><table _TABLENUMBER=7345013267103810863>
+	<tr>
+		<td colspan="3">My test <span class="error">Could not invoke constructor for MyTest</span></td>
+	</tr>
+	<tr>
+		<td>first name</td>
+		<td>last name</td>
+		<td>fullname?</td>
+	</tr>
+	<tr>
+		<td>Kevin <span class="error">The instance decisionTable_1 does not exist</span></td>
+		<td>Truong <span class="error">The instance decisionTable_1 does not exist</span></td>
+		<td>Kevin Truong <span class="error">The instance decisionTable_1 does not exist</span></td>
+	</tr>
+</table>
+<br/><br/><br/><h2>En kopia på testtabellen</h2>
+<table _TABLENUMBER=7845383847308843152>
+	<tr>
+		<td><span class="fail">first name: Bad table: <br/><pre>fitnesse.slimTables.SlimTable$SyntaxError: DecisionTables should have at least three rows.
+	at fitnesse.slimTables.DecisionTable.appendInstructions(DecisionTable.java:28)
+	at fitnesse.slimTables.SlimTable.appendInstructions(SlimTable.java:87)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.createInstructions(SlimTestSystem.java:350)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processTablesAndGetHtml(SlimTestSystem.java:332)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processAllTablesOnPage(SlimTestSystem.java:319)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.runTestsAndGenerateHtml(SlimTestSystem.java:258)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestSystemPages(MultipleTestsRunner.java:128)
+	at fitnesse.responders.run.MultipleTestsRunner.startTestSystemAndExecutePages(MultipleTestsRunner.java:112)
+	at fitnesse.responders.run.MultipleTestsRunner.internalExecuteTestPages(MultipleTestsRunner.java:88)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestPages(MultipleTestsRunner.java:60)
+	at fitnesse.responders.run.TestResponder.performExecution(TestResponder.java:190)
+	at fitnesse.responders.run.TestResponder.doExecuteTests(TestResponder.java:72)
+	at fitnesse.responders.run.TestResponder$TestExecutor.execute(TestResponder.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.doInvoke(UberspectImpl.java:395)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.invoke(UberspectImpl.java:384)
+	at org.apache.velocity.runtime.parser.node.ASTMethod.execute(ASTMethod.java:173)
+	at org.apache.velocity.runtime.parser.node.ASTReference.execute(ASTReference.java:280)
+	at org.apache.velocity.runtime.parser.node.ASTReference.render(ASTReference.java:369)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:342)
+	at org.apache.velocity.runtime.directive.Parse.render(Parse.java:260)
+	at org.apache.velocity.runtime.parser.node.ASTDirective.render(ASTDirective.java:207)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:342)
+	at org.apache.velocity.Template.merge(Template.java:356)
+	at org.apache.velocity.Template.merge(Template.java:260)
+	at fitnesse.responders.templateUtilities.HtmlPage.render(HtmlPage.java:80)
+	at fitnesse.responders.run.TestResponder.doSending(TestResponder.java:61)
+	at fitnesse.responders.ChunkingResponder.startSending(ChunkingResponder.java:66)
+	at fitnesse.http.ChunkedResponse.sendTo(ChunkedResponse.java:26)
+	at fitnesse.FitNesseExpediter.sendResponse(FitNesseExpediter.java:96)
+	at fitnesse.FitNesseExpediter.start(FitNesseExpediter.java:48)
+	at fitnesse.FitNesseServer.serve(FitNesseServer.java:24)
+	at fitnesse.FitNesseServer.serve(FitNesseServer.java:17)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:109)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></span></td>
+		<td>last name</td>
+		<td>fullname?</td>
+	</tr>
+	<tr>
+		<td>Kevin</td>
+		<td>Truong</td>
+		<td>Kevin Truong</td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>DemoTest</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[Import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Fixture]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_1</name>
+                <row>
+                    <col><![CDATA[My test error(Could not invoke constructor for MyTest)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[first name]]></col>
+                    <col><![CDATA[last name]]></col>
+                    <col><![CDATA[fullname?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Kevin error(The instance decisionTable_1 does not exist)]]></col>
+                    <col><![CDATA[Truong error(The instance decisionTable_1 does not exist)]]></col>
+                    <col><![CDATA[Kevin Truong error(The instance decisionTable_1 does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_2</name>
+                <row>
+                    <col><![CDATA[<span class="fail">first name: Bad table: <br/><pre>fitnesse.slimTables.SlimTable$SyntaxError: DecisionTables should have at least three rows.
+	at fitnesse.slimTables.DecisionTable.appendInstructions(DecisionTable.java:28)
+	at fitnesse.slimTables.SlimTable.appendInstructions(SlimTable.java:87)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.createInstructions(SlimTestSystem.java:350)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processTablesAndGetHtml(SlimTestSystem.java:332)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processAllTablesOnPage(SlimTestSystem.java:319)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.runTestsAndGenerateHtml(SlimTestSystem.java:258)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestSystemPages(MultipleTestsRunner.java:128)
+	at fitnesse.responders.run.MultipleTestsRunner.startTestSystemAndExecutePages(MultipleTestsRunner.java:112)
+	at fitnesse.responders.run.MultipleTestsRunner.internalExecuteTestPages(MultipleTestsRunner.java:88)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestPages(MultipleTestsRunner.java:60)
+	at fitnesse.responders.run.TestResponder.performExecution(TestResponder.java:190)
+	at fitnesse.responders.run.TestResponder.doExecuteTests(TestResponder.java:72)
+	at fitnesse.responders.run.TestResponder$TestExecutor.execute(TestResponder.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.doInvoke(UberspectImpl.java:395)
+	at org.apache.velocity.util.introspection.UberspectImpl$VelMethodImpl.invoke(UberspectImpl.java:384)
+	at org.apache.velocity.runtime.parser.node.ASTMethod.execute(ASTMethod.java:173)
+	at org.apache.velocity.runtime.parser.node.ASTReference.execute(ASTReference.java:280)
+	at org.apache.velocity.runtime.parser.node.ASTReference.render(ASTReference.java:369)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:342)
+	at org.apache.velocity.runtime.directive.Parse.render(Parse.java:260)
+	at org.apache.velocity.runtime.parser.node.ASTDirective.render(ASTDirective.java:207)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:342)
+	at org.apache.velocity.Template.merge(Template.java:356)
+	at org.apache.velocity.Template.merge(Template.java:260)
+	at fitnesse.responders.templateUtilities.HtmlPage.render(HtmlPage.java:80)
+	at fitnesse.responders.run.TestResponder.doSending(TestResponder.java:61)
+	at fitnesse.responders.ChunkingResponder.startSending(ChunkingResponder.java:66)
+	at fitnesse.http.ChunkedResponse.sendTo(ChunkedResponse.java:26)
+	at fitnesse.FitNesseExpediter.sendResponse(FitNesseExpediter.java:96)
+	at fitnesse.FitNesseExpediter.start(FitNesseExpediter.java:48)
+	at fitnesse.FitNesseServer.serve(FitNesseServer.java:24)
+	at fitnesse.FitNesseServer.serve(FitNesseServer.java:17)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:109)
+	at java.lang.Thread.run(Thread.java:722)
+</pre></span>]]></col>
+                    <col><![CDATA[last name]]></col>
+                    <col><![CDATA[fullname?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Kevin]]></col>
+                    <col><![CDATA[Truong]]></col>
+                    <col><![CDATA[Kevin Truong]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, Fixture]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_0, make, decisionTable_1, MyTest]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for MyTest]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for MyTest]]></actual>
+                              <expected><![CDATA[My test]]></expected>
+                              <evaluationMessage><![CDATA[My test error(Could not invoke constructor for MyTest)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_1, call, decisionTable_1, table, [[first name, last name, fullname?], [Kevin, Truong, Kevin Truong]]]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_2, call, decisionTable_1, beginTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_3, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_4, call, decisionTable_1, setFirstName, Kevin]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[Kevin]]></expected>
+                              <evaluationMessage><![CDATA[Kevin error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_5, call, decisionTable_1, setLastName, Truong]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[Truong]]></expected>
+                              <evaluationMessage><![CDATA[Truong error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_6, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_7, call, decisionTable_1, fullname]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[Kevin Truong]]></expected>
+                              <evaluationMessage><![CDATA[Kevin Truong error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_8, call, decisionTable_1, endTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

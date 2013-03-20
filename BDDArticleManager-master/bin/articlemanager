@@ -1,0 +1,79 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift File.expand_path('../../lib',__FILE__)
+require 'articlemanager'
+
+def is_id?(input)
+	input.to_s.match(/^[\d]+$/) == nil ? false : true
+end
+
+def is_valid_id?(id, number_of_articles)
+	id > 0 && id <= number_of_articles
+end
+
+def is_input_for_article_details_screen?(program)
+  puts program.details.to_s
+  program.details
+end
+
+parser = ArticleManager::ArticleRecordParser.new
+repository = ArticleManager::ArticleRepository.new
+program = ArticleManager::Controller.new(STDOUT, parser, repository)
+current_id = -1
+
+program.start
+while !program.shutdown
+	puts "\nEnter Command: "
+  input = gets.chomp
+
+  if is_input_for_article_details_screen?(program)
+  	case input
+		when 'e'
+			current_id = -1
+			program.exit_details_screen
+		when 'u'
+			puts "\nStatic update of articles to showcase the update function..."
+			program.update_article_with_id(current_id, ArticleManager::Article.new([Date.today.to_s, "Updated","https://www.updated.com/#{input}","Guide","Description"]))
+		when 'd'
+			program.delete_article_with_id(current_id)
+		when '?'
+		  program.help
+		when 'h'
+		  program.help
+		when 'q'
+			program.quit
+		else
+		  program.bad_command
+		end
+  else
+	  if is_id?(input)
+	  	id = input.to_i
+			if is_valid_id?(id, program.number_of_articles)
+				current_id = id
+				program.list_details_for_article_with_id(id)
+			else
+				puts "\nError: ID must be between 1 and the total number of articles."
+				program.list_all_articles
+			end
+		else
+		  case input
+		  when 'l'
+		  	program.list_all_articles
+			when 'i'
+				puts "\nStatic import of files in order to showcase program..."
+		  	program.import("Date,Title,URL,Categories,Description,2013-01-01,Title 1,http://example.org/4/,Tutorial,Description 1\n2012-02-02,Title 2,http://example.org/5/,Guide,Description 2")
+		  when 'a'
+		  	puts "\nAdd Command not yet implemented"
+		  when 'e'
+		  	puts "\nExport Command not yet implemented"
+		  when 'q'
+		  	program.quit
+		  when '?'
+		  	program.help
+		  when 'h'
+		  	program.help
+		  else
+		  	program.bad_command
+		  end
+	  end
+	end
+end

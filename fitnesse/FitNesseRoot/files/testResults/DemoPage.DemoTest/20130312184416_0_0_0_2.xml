@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>DemoTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <runTimeInMillis>53</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<br/><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Included page: <a href="DemoPage.SetUp">.DemoPage.SetUp</a> <a href="DemoPage.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=" class="edit">(edit)</a></p>
+	<div><div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><table _TABLENUMBER=8952635548877877834>
+	<tr>
+		<td>Import</td>
+	</tr>
+	<tr>
+		<td>Fixtures</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/><div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><h2>Min första testtabell:</h2>
+<br/><div id="test_exceptions1"><H3> <span class="fail">Exceptions</span></H3><br/><a name="decisionTable_1_7"><b></b></a><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">decisionTable_1_7</p>
+	<div><pre>__EXCEPTION__:undefined method `fullname' for #&lt;UserProject::User:0x948dcf4&gt;
+/home/testaut/ta/demo/lib/fixtures/my_test.rb:18:in `fullname'
+/home/testaut/ta/rubyslim/lib/rubyslim/statement_executor.rb:110:in `send_message_to_instance'
+/home/testaut/ta/rubyslim/lib/rubyslim/statement_executor.rb:124:in `call'
+/home/testaut/ta/rubyslim/lib/rubyslim/statement.rb:46:in `call_method_at_index'
+/home/testaut/ta/rubyslim/lib/rubyslim/statement.rb:26:in `exec'
+/home/testaut/ta/rubyslim/lib/rubyslim/statement.rb:7:in `execute'
+/home/testaut/ta/rubyslim/lib/rubyslim/list_executor.rb:11:in `block in execute'
+/home/testaut/ta/rubyslim/lib/rubyslim/list_executor.rb:11:in `collect'
+/home/testaut/ta/rubyslim/lib/rubyslim/list_executor.rb:11:in `execute'
+/home/testaut/ta/rubyslim/lib/rubyslim/ruby_slim.rb:51:in `serve_ruby_slim'
+/home/testaut/ta/rubyslim/lib/rubyslim/ruby_slim.rb:13:in `block in run'
+/home/testaut/ta/rubyslim/lib/rubyslim/socket_service.rb:37:in `call'
+/home/testaut/ta/rubyslim/lib/rubyslim/socket_service.rb:37:in `serverTask'
+/home/testaut/ta/rubyslim/lib/rubyslim/socket_service.rb:31:in `block in serviceTask'</pre></div>
+</div>
+</div><hr/><table _TABLENUMBER=483410850995506904>
+	<tr>
+		<td colspan="3"><span class="pass">My test</span></td>
+	</tr>
+	<tr>
+		<td>first name</td>
+		<td>last name</td>
+		<td>fullname?</td>
+	</tr>
+	<tr>
+		<td>Another</td>
+		<td>Name</td>
+		<td><span class="error">Exception: <a href=#decisionTable_1_7>decisionTable_1_7</a></span></td>
+	</tr>
+</table>
+<br/><h2>En kopia på testtabellen (Vi kan ha flera tabeller/sida):</h2>
+<br/>]]></content>
+    <relativePageName>DemoTest</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[Import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_1</name>
+                <row>
+                    <col><![CDATA[pass(My test)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[first name]]></col>
+                    <col><![CDATA[last name]]></col>
+                    <col><![CDATA[fullname?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Another]]></col>
+                    <col><![CDATA[Name]]></col>
+                    <col><![CDATA[error(Exception: <a href=#decisionTable_1_7>decisionTable_1_7</a>)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, Fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_0, make, decisionTable_1, MyTest]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[My test]]></expected>
+                              <evaluationMessage><![CDATA[pass(My test)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_1, call, decisionTable_1, table, [[first name, last name, fullname?], [Another, Name, Another Name]]]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS table[1] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_2, call, decisionTable_1, beginTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS begin_table[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_3, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS reset[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_4, call, decisionTable_1, setFirstName, Another]]]></instruction>
+        <slimResult><![CDATA[Another]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Another]]></actual>
+                              <expected><![CDATA[Another]]></expected>
+                              <evaluationMessage><![CDATA[Another]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_5, call, decisionTable_1, setLastName, Name]]]></instruction>
+        <slimResult><![CDATA[Name]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Name]]></actual>
+                              <expected><![CDATA[Name]]></expected>
+                              <evaluationMessage><![CDATA[Name]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_6, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS execute[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_7, call, decisionTable_1, fullname]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#decisionTable_1_7>decisionTable_1_7</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#decisionTable_1_7>decisionTable_1_7</a>]]></actual>
+                              <expected><![CDATA[Another Name]]></expected>
+                              <evaluationMessage><![CDATA[error(Exception: <a href=#decisionTable_1_7>decisionTable_1_7</a>)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_8, call, decisionTable_1, endTable]]]></instruction>
+        <slimResult><![CDATA[__EXCEPTION__:message:<<NO_METHOD_IN_CLASS end_table[0] Fixtures::MyTest.>>]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

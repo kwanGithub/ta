@@ -1,0 +1,11 @@
+!3 !-slim-!
+|'''Date: '''| 1:57:04 em (CET) on onsdag, mars 20, 2013 |
+|'''Test Page: '''|.ArticalManager.TestTable|
+|'''Command: '''| !-ruby -I /home/kwan/git/projects/ta/rubyslim/lib -I /home/kwan/git/projects/ta/BDDArticleManager-master/lib -I /home/kwan/git/projects/ta/BDDArticleManager-master/lib/fixtures /home/xubuntu/ta/rubyslim/bin/rubyslim  8089-! |
+|'''Exit code: '''| 1 |
+|'''Time elapsed: '''| 5.324 seconds |
+
+----
+'''Standard Error:'''
+{{{ ruby: No such file or directory -- /home/xubuntu/ta/rubyslim/bin/rubyslim (LoadError)
+ }}}

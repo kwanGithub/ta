@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20121220</FitNesseVersion>
+  <rootPath>DemoTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>58</exceptions>
+    </counts>
+    <runTimeInMillis>57</runTimeInMillis>
+    <content><![CDATA[<div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Precompiled Libraries</p>
+	<div><br/></div>
+</div>
+<br/><div class="collapsible closed"><ul><li><a href='#' class='expandall'>Expand All</a></li><li><a href='#' class='collapseall'>Collapse All</a></li></ul>
+	<p class="title">Included page: <a href="DemoPage.SetUp">.DemoPage.SetUp</a> <a href="DemoPage.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=" class="edit">(edit)</a></p>
+	<div><div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><table _TABLENUMBER=3526491124831579471>
+	<tr>
+		<td>Import</td>
+	</tr>
+	<tr>
+		<td>Fixtures</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/><div class="toc1">
+	<div class="contents">
+		<b>Contents:</b>
+		<ul/>
+	</div>
+</div>
+<br/><br/><h2>Min första testtabell:</h2>
+<br/><table _TABLENUMBER=315832175362988505>
+	<tr>
+		<td colspan="3">My test <span class="error">Could not invoke constructor for MyTest</span></td>
+	</tr>
+	<tr>
+		<td>first name</td>
+		<td>last name</td>
+		<td>fullname?</td>
+	</tr>
+	<tr>
+		<td>Another <span class="error">The instance decisionTable_1 does not exist</span></td>
+		<td>Name <span class="error">The instance decisionTable_1 does not exist</span></td>
+		<td>Another Name <span class="error">The instance decisionTable_1 does not exist</span></td>
+	</tr>
+	<tr>
+		<td>First <span class="error">The instance decisionTable_1 does not exist</span></td>
+		<td>last <span class="error">The instance decisionTable_1 does not exist</span></td>
+		<td>First last <span class="error">The instance decisionTable_1 does not exist</span></td>
+	</tr>
+	<tr>
+		<td>Good <span class="error">The instance decisionTable_1 does not exist</span></td>
+		<td>People <span class="error">The instance decisionTable_1 does not exist</span></td>
+		<td>Good People <span class="error">The instance decisionTable_1 does not exist</span></td>
+	</tr>
+</table>
+<br/><h2>En kopia på testtabellen (Vi kan ha flera tabeller/sida):</h2>
+<br/><table _TABLENUMBER=2989132898427850887>
+	<tr>
+		<td colspan="3">My test <span class="error">Could not invoke constructor for MyTest</span></td>
+	</tr>
+	<tr>
+		<td>first name</td>
+		<td>last name</td>
+		<td>fullname?</td>
+	</tr>
+	<tr>
+		<td>Another <span class="error">The instance decisionTable_2 does not exist</span></td>
+		<td>Name <span class="error">The instance decisionTable_2 does not exist</span></td>
+		<td>Another Name <span class="error">The instance decisionTable_2 does not exist</span></td>
+	</tr>
+	<tr>
+		<td>First <span class="error">The instance decisionTable_2 does not exist</span></td>
+		<td>last <span class="error">The instance decisionTable_2 does not exist</span></td>
+		<td>First last <span class="error">The instance decisionTable_2 does not exist</span></td>
+	</tr>
+	<tr>
+		<td>Good <span class="error">The instance decisionTable_2 does not exist</span></td>
+		<td>People <span class="error">The instance decisionTable_2 does not exist</span></td>
+		<td>Good People <span class="error">The instance decisionTable_2 does not exist</span></td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>DemoTest</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[Import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_1</name>
+                <row>
+                    <col><![CDATA[My test error(Could not invoke constructor for MyTest)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[first name]]></col>
+                    <col><![CDATA[last name]]></col>
+                    <col><![CDATA[fullname?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Another error(The instance decisionTable_1 does not exist)]]></col>
+                    <col><![CDATA[Name error(The instance decisionTable_1 does not exist)]]></col>
+                    <col><![CDATA[Another Name error(The instance decisionTable_1 does not exist)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[First error(The instance decisionTable_1 does not exist)]]></col>
+                    <col><![CDATA[last error(The instance decisionTable_1 does not exist)]]></col>
+                    <col><![CDATA[First last error(The instance decisionTable_1 does not exist)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Good error(The instance decisionTable_1 does not exist)]]></col>
+                    <col><![CDATA[People error(The instance decisionTable_1 does not exist)]]></col>
+                    <col><![CDATA[Good People error(The instance decisionTable_1 does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_2</name>
+                <row>
+                    <col><![CDATA[My test error(Could not invoke constructor for MyTest)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[first name]]></col>
+                    <col><![CDATA[last name]]></col>
+                    <col><![CDATA[fullname?]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Another error(The instance decisionTable_2 does not exist)]]></col>
+                    <col><![CDATA[Name error(The instance decisionTable_2 does not exist)]]></col>
+                    <col><![CDATA[Another Name error(The instance decisionTable_2 does not exist)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[First error(The instance decisionTable_2 does not exist)]]></col>
+                    <col><![CDATA[last error(The instance decisionTable_2 does not exist)]]></col>
+                    <col><![CDATA[First last error(The instance decisionTable_2 does not exist)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Good error(The instance decisionTable_2 does not exist)]]></col>
+                    <col><![CDATA[People error(The instance decisionTable_2 does not exist)]]></col>
+                    <col><![CDATA[Good People error(The instance decisionTable_2 does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, Fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_0, make, decisionTable_1, MyTest]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for MyTest]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for MyTest]]></actual>
+                              <expected><![CDATA[My test]]></expected>
+                              <evaluationMessage><![CDATA[My test error(Could not invoke constructor for MyTest)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_1, call, decisionTable_1, table, [[first name, last name, fullname?], [Another, Name, Another Name], [First, last, First last], [Good, People, Good People]]]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_2, call, decisionTable_1, beginTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_3, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_4, call, decisionTable_1, setFirstName, Another]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[Another]]></expected>
+                              <evaluationMessage><![CDATA[Another error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_5, call, decisionTable_1, setLastName, Name]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[Name]]></expected>
+                              <evaluationMessage><![CDATA[Name error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_6, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_7, call, decisionTable_1, fullname]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[Another Name]]></expected>
+                              <evaluationMessage><![CDATA[Another Name error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_8, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_9, call, decisionTable_1, setFirstName, First]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_9</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[First]]></expected>
+                              <evaluationMessage><![CDATA[First error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_10, call, decisionTable_1, setLastName, last]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[last]]></expected>
+                              <evaluationMessage><![CDATA[last error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_11, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_12, call, decisionTable_1, fullname]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_12</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[First last]]></expected>
+                              <evaluationMessage><![CDATA[First last error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_13, call, decisionTable_1, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_14, call, decisionTable_1, setFirstName, Good]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_14</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[Good]]></expected>
+                              <evaluationMessage><![CDATA[Good error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_15, call, decisionTable_1, setLastName, People]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_15</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[People]]></expected>
+                              <evaluationMessage><![CDATA[People error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_16, call, decisionTable_1, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_17, call, decisionTable_1, fullname]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_1_17</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_1 does not exist]]></actual>
+                              <expected><![CDATA[Good People]]></expected>
+                              <evaluationMessage><![CDATA[Good People error(The instance decisionTable_1 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_1_18, call, decisionTable_1, endTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_1 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_0, make, decisionTable_2, MyTest]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for MyTest]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for MyTest]]></actual>
+                              <expected><![CDATA[My test]]></expected>
+                              <evaluationMessage><![CDATA[My test error(Could not invoke constructor for MyTest)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_1, call, decisionTable_2, table, [[first name, last name, fullname?], [Another, Name, Another Name], [First, last, First last], [Good, People, Good People]]]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_2, call, decisionTable_2, beginTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_3, call, decisionTable_2, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_4, call, decisionTable_2, setFirstName, Another]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_2 does not exist]]></actual>
+                              <expected><![CDATA[Another]]></expected>
+                              <evaluationMessage><![CDATA[Another error(The instance decisionTable_2 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_5, call, decisionTable_2, setLastName, Name]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_2 does not exist]]></actual>
+                              <expected><![CDATA[Name]]></expected>
+                              <evaluationMessage><![CDATA[Name error(The instance decisionTable_2 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_6, call, decisionTable_2, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_7, call, decisionTable_2, fullname]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_2 does not exist]]></actual>
+                              <expected><![CDATA[Another Name]]></expected>
+                              <evaluationMessage><![CDATA[Another Name error(The instance decisionTable_2 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_8, call, decisionTable_2, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_9, call, decisionTable_2, setFirstName, First]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_9</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_2 does not exist]]></actual>
+                              <expected><![CDATA[First]]></expected>
+                              <evaluationMessage><![CDATA[First error(The instance decisionTable_2 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_10, call, decisionTable_2, setLastName, last]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_2 does not exist]]></actual>
+                              <expected><![CDATA[last]]></expected>
+                              <evaluationMessage><![CDATA[last error(The instance decisionTable_2 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_11, call, decisionTable_2, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_12, call, decisionTable_2, fullname]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_12</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_2 does not exist]]></actual>
+                              <expected><![CDATA[First last]]></expected>
+                              <evaluationMessage><![CDATA[First last error(The instance decisionTable_2 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_13, call, decisionTable_2, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_14, call, decisionTable_2, setFirstName, Good]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_14</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_2 does not exist]]></actual>
+                              <expected><![CDATA[Good]]></expected>
+                              <evaluationMessage><![CDATA[Good error(The instance decisionTable_2 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_15, call, decisionTable_2, setLastName, People]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_15</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_2 does not exist]]></actual>
+                              <expected><![CDATA[People]]></expected>
+                              <evaluationMessage><![CDATA[People error(The instance decisionTable_2 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_16, call, decisionTable_2, execute]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_17, call, decisionTable_2, fullname]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_2_17</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance decisionTable_2 does not exist]]></actual>
+                              <expected><![CDATA[Good People]]></expected>
+                              <evaluationMessage><![CDATA[Good People error(The instance decisionTable_2 does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_2_18, call, decisionTable_2, endTable]]]></instruction>
+        <slimResult><![CDATA[!error:The instance decisionTable_2 does not exist]]></slimResult>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

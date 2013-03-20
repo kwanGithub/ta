@@ -1,0 +1,7 @@
+!3 !-slim-!
+|'''Date: '''| 11:59:45 PM (UTC) on Friday, March 15, 2013 |
+|'''Test Page: '''|.DemoPage.MainSuite.SubSuite2.SubTest2|
+|'''Command: '''| !-ruby -I /home/xubuntu/ta/rubyslim/lib -I /home/xubuntu/ta/demo/lib -I /home/xubuntu/ta/demo/lib/fixtures /home/xubuntu/ta/rubyslim/bin/rubyslim  8089-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.237 seconds |
+
