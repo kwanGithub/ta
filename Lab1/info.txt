@@ -1,0 +1,40 @@
+Fråga 1
+# :ff betyder att vår browser skall använda firefox och om vi vill ändra till browser internet explorer så 
+får vi skriva så här:
+browser = Watir::Browser.new :ie = internet explorer
+browser = Watir::Browser.new :ff = firefox
+
+
+
+Fråga 3
+# Finns inget id satt på submit knappen, därför kan inte knappen identfieras "id => submit"
+
+
+
+uppgift 12 
+http://amaras-tech.co.uk/article/177/Web_Automation_with_Watir
+
+För att köra headless i linux behöver du ett headless gem samt köra xvfb.
+
+gem install watir-webdriver
+gem install headless
+#or in your Gemfile
+gem "watir-webdriver"
+gem "healdess"
+
+
+The headless gem uses xvfb to perform graphical actions. If you are not on headless machine these will still be visible.
+
+require 'watir-webdriver'
+require 'headless'
+
+headless = Headless.new
+headless.start
+
+browser = Watir::Browser.start 'www.google.com'
+puts browser.title
+browser.close
+
+headless.destroy
+
+https://groups.google.com/forum/?fromgroups=#!topic/watir-general/p56E1dOPBZs windows lösning

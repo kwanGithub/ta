@@ -1,0 +1,8 @@
+Adam A Jeng 800309
+Kevin Troung 800317
+
+”Utfört Uppg: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21”.
+
+"Fråga 16:[Finns implementerat i koden.
+Ett test som Kollar efter nil i first_name och ett test som kollar efter nil i last_name]
+ 
