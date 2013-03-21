@@ -1,0 +1,39 @@
+Tanken med cucumber är att försöka skapa ett program/spel utav user storys??
+Här har vi olika regler/features för codebreaker spelet som vi skall skapa. Om vi skulle se
+Codebreaker som ett matte tal som vi tar och faktoriserar i första steg då skulle det kunna se ut så här:
+
+• Code-breaker starts game
+• Code-breaker submits guess
+• Code-breaker wins game
+• Code-breaker loses game
+• Code-breaker plays again
+• Code-breaker requests hint
+• Code-breaker saves score
+
+och sen faktoriserar vi ytterligare till det här:		I cucumber skriver kod funktionen??		Skulle man kunna skriva ett TDD här?
+														eller ett acceptans test?
+• Code-breaker starts game					• Code-breaker starts game
+	vad händer när vi startar game?								
+When:	användaren startar spelet				When:	startar code-breaker.rb 
+Then:	han får ett välkomms meddelande				Then:	puts "Welcome to Code-breaker!"
+ And:	och blir tillfrågade att gissa				And:	guess = gets.chomp
+	
+	
+
+
+• Code-breaker submits guess
+
+
+• Code-breaker wins game
+
+
+• Code-breaker loses game
+
+
+• Code-breaker plays again
+
+
+• Code-breaker requests hint
+
+
+• Code-breaker saves score
