@@ -1,5 +1,11 @@
 |Article Manager Test|
-||list_all_articles_empty?|
-|ouput||
-|||
+|input|list_all_articles_empty?|
+|list all articles|No Articles in Article Repository.|
 
+|Article Manager Test|
+|input|output?|
+|!-http://www.example.org-!|Some|
+
+|Article Manager Test|
+|I should see|pass?|
+|some message|true|

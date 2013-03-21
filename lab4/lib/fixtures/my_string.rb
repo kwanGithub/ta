@@ -28,6 +28,9 @@ module Fixtures
 			@teststring = arg1
 		end
 
+###################################################################
+
+
 		def new
 			@internal.newobject(@internal.string)
 		end

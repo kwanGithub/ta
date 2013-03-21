@@ -1,7 +1,7 @@
 !3 !-slim-!
-|'''Date: '''| 4:40:47 em (CET) on onsdag, mars 20, 2013 |
+|'''Date: '''| 2:13:20 fm (CET) on torsdag, mars 21, 2013 |
 |'''Test Page: '''|.Lab4Start.MethodTables|
-|'''Command: '''| !-ruby -I /home/kwan/git/projects/ta/rubyslim/lib -I /home/kwan/git/projects/ta/lab4/lib -I /home/kwan/git/projects/ta/lab4/lib/fixtures /home/kwan/git/projects/ta/rubyslim/bin/rubyslim  8089-! |
+|'''Command: '''| !-ruby -I /home/kwan/git/projects/ta/rubyslim/lib -I /home/kwan/git/projects/ta/lab4/lib -I /home/kwan/git/projects/ta/lab4/lib/fixtures /home/kwan/git/projects/ta/rubyslim/bin/rubyslim  8087-! |
 |'''Exit code: '''| 0 |
-|'''Time elapsed: '''| 0.566 seconds |
+|'''Time elapsed: '''| 0.569 seconds |
 
